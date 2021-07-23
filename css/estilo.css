@@ -1,0 +1,75 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background: #fff url(../imagens/fundo.png) repeat-x;
+        }
+        /*Cabeçalho*/
+        
+        #container {
+            width: 750px;
+            margin: auto;
+        }
+        
+        #topo {
+            height: 150px;
+            background: url(../imagens/detalhe-topo.png) no-repeat right top;
+            padding-top: 25px;
+        }
+        
+        .logo {
+            width: 152px;
+            height: 66px;
+            background: url(../imagens/logo.png) no-repeat left top;
+            text-indent: -3000px;
+            /*Esconder o texto para que nao apareça na tela mas ainda seja lido por leitores de tela*/
+        }
+        /*Barra de navegação*/
+        
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        
+        #topo ul {
+            float: left;
+            margin-top: 30px;
+            background: #b10333;
+        }
+        
+        #topo ul .primeiro a {
+            background: none;
+        }
+        
+        #topo ul li {
+            float: left;
+        }
+        
+        #topo ul a {
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            font-size: 0.9em;
+            padding: 0.5em 1.5em;
+            line-height: 2.1em;
+            background: url(../imagens/divisor.png) no-repeat left center;
+        }
+        
+        #topo ul a:hover {
+            background: #F62048;
+        }
+        
+        body.home #navegacao a#home,
+        body.brasil #navegacao a#brasil,
+        body.fotos #navegacao a#fotos {
+            background: #F62048;
+            cursor: text;
+        }
+        
+        #conteudo {
+            background: #fff url(../imagens/fundo-caixa.png);
+        }
