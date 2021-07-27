@@ -5,7 +5,7 @@
         
         body {
             font-family: Helvetica, Arial, sans-serif;
-            background: #fff url(../imagens/fundo.png) repeat-x;
+            background: url(../imagens/fundo.png) repeat-x;
         }
         /*Cabeçalho*/
         
@@ -69,7 +69,74 @@
             background: #F62048;
             cursor: text;
         }
+        /*Formatação para todas as caixas de conteúdo */
+        
+        .caixa {
+            background: #f3f3f3 url(../imagens/fundo-caixa.png);
+            margin: 10px 0;
+            padding: 5px 0 5px 0;
+        }
+        
+        h2 {
+            font-size: 1em;
+            background: #294C71;
+            color: #ffffff;
+            padding: 5px;
+        }
+        
+        .caixa-conteudo {
+            background: #fff;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        /*Formatação do Conteúdo INDEX*/
         
         #conteudo {
-            background: #fff url(../imagens/fundo-caixa.png);
+            margin-top: 60px;
+        }
+        
+        #conteudo-primario {
+            float: left;
+            width: 270px;
+            margin: 0 0 20px 195px;
+        }
+        
+        #conteudo-secundario {
+            float: left;
+            width: 270px;
+            margin: 0 0 20px 15px;
+        }
+        
+        #conteudo-lateral {
+            float: left;
+            width: 180px;
+            margin: 0 0 20px -750px;
+        }
+        /*Formatação do Conteúdo BRASIL*/
+        
+        #brasil-conteudo-primario {
+            float: left;
+            width: 555px;
+            margin: 0 0 20px 195px;
+        }
+        
+        #brasil-conteudo-lateral {
+            float: left;
+            width: 180px;
+            margin: 0 0 20px -750px;
+        }
+        /*Formatação do Conteúdo FOTOS*/
+        
+        #fotos-conteudo-principal {
+            background: coral;
+            width: 750px;
+            margin-bottom: 20px;
+        }
+        
+        #rodape {
+            background: #294C71;
+            padding: 20px;
+            clear: both;
+            color: #ffffff;
+            text-align: center;
         }
