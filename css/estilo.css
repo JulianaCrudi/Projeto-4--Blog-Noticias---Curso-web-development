@@ -1,142 +1,205 @@
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            font-family: Helvetica, Arial, sans-serif;
-            background: url(../imagens/fundo.png) repeat-x;
-        }
-        /*Cabeçalho*/
-        
-        #container {
-            width: 750px;
-            margin: auto;
-        }
-        
-        #topo {
-            height: 150px;
-            background: url(../imagens/detalhe-topo.png) no-repeat right top;
-            padding-top: 25px;
-        }
-        
-        .logo {
-            width: 152px;
-            height: 66px;
-            background: url(../imagens/logo.png) no-repeat left top;
-            text-indent: -3000px;
-            /*Esconder o texto para que nao apareça na tela mas ainda seja lido por leitores de tela*/
-        }
-        /*Barra de navegação*/
-        
-        ul {
-            margin: 0px;
-            padding: 0px;
-            list-style: none;
-        }
-        
-        #topo ul {
-            float: left;
-            margin-top: 30px;
-            background: #b10333;
-        }
-        
-        #topo ul .primeiro a {
-            background: none;
-        }
-        
-        #topo ul li {
-            float: left;
-        }
-        
-        #topo ul a {
-            display: block;
-            text-decoration: none;
-            color: #fff;
-            font-size: 0.9em;
-            padding: 0.5em 1.5em;
-            line-height: 2.1em;
-            background: url(../imagens/divisor.png) no-repeat left center;
-        }
-        
-        #topo ul a:hover {
-            background: #F62048;
-        }
-        
-        body.home #navegacao a#home,
-        body.brasil #navegacao a#brasil,
-        body.fotos #navegacao a#fotos {
-            background: #F62048;
-            cursor: text;
-        }
-        /*Formatação para todas as caixas de conteúdo */
-        
-        .caixa {
-            background: #f3f3f3 url(../imagens/fundo-caixa.png);
-            margin: 10px 0;
-            padding: 5px 0 5px 0;
-        }
-        
-        h2 {
-            font-size: 1em;
-            background: #294C71;
-            color: #ffffff;
-            padding: 5px;
-        }
-        
-        .caixa-conteudo {
-            background: #fff;
-            padding: 5px;
-            margin-top: 5px;
-        }
-        /*Formatação do Conteúdo INDEX*/
-        
-        #conteudo {
-            margin-top: 60px;
-        }
-        
-        #conteudo-primario {
-            float: left;
-            width: 270px;
-            margin: 0 0 20px 195px;
-        }
-        
-        #conteudo-secundario {
-            float: left;
-            width: 270px;
-            margin: 0 0 20px 15px;
-        }
-        
-        #conteudo-lateral {
-            float: left;
-            width: 180px;
-            margin: 0 0 20px -750px;
-        }
-        /*Formatação do Conteúdo BRASIL*/
-        
-        #brasil-conteudo-primario {
-            float: left;
-            width: 555px;
-            margin: 0 0 20px 195px;
-        }
-        
-        #brasil-conteudo-lateral {
-            float: left;
-            width: 180px;
-            margin: 0 0 20px -750px;
-        }
-        /*Formatação do Conteúdo FOTOS*/
-        
-        #fotos-conteudo-principal {
-            background: coral;
-            width: 750px;
-            margin-bottom: 20px;
-        }
-        
-        #rodape {
-            background: #294C71;
-            padding: 20px;
-            clear: both;
-            color: #ffffff;
-            text-align: center;
-        }
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+                background: url(../imagens/fundo.png) repeat-x;
+            }
+            /*Cabeçalho*/
+            
+            #container {
+                width: 750px;
+                margin: auto;
+            }
+            
+            #topo {
+                height: 150px;
+                background: url(../imagens/detalhe-topo.png) no-repeat right top;
+                padding-top: 25px;
+            }
+            
+            .logo {
+                width: 152px;
+                height: 66px;
+                background: url(../imagens/logo.png) no-repeat left top;
+                text-indent: -3000px;
+                /*Esconder o texto para que nao apareça na tela mas ainda seja lido por leitores de tela*/
+            }
+            /*Barra de navegação*/
+            
+            ul {
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            
+            #topo ul {
+                float: left;
+                margin-top: 30px;
+                background: #b10333;
+            }
+            
+            #topo ul .primeiro a {
+                background: none;
+            }
+            
+            #topo ul li {
+                float: left;
+            }
+            
+            #topo ul a {
+                display: block;
+                text-decoration: none;
+                color: #fff;
+                font-size: 0.9em;
+                padding: 0.5em 1.5em;
+                line-height: 2.1em;
+                background: url(../imagens/divisor.png) no-repeat left center;
+            }
+            
+            #topo ul a:hover {
+                background: #F62048;
+            }
+            
+            body.home #navegacao a#home,
+            body.brasil #navegacao a#brasil,
+            body.fotos #navegacao a#fotos {
+                background: #F62048;
+                cursor: text;
+            }
+            /*Formatação para todas as caixas de conteúdo */
+            
+            .caixa {
+                margin: 20px 0;
+                padding: 5px 0;
+                background: #f3f3f3 url(../imagens/fundo-caixa.png);
+            }
+            
+            h2 {
+                font-size: 1em;
+                background: #294C71;
+                color: #ffffff;
+                padding: 5px;
+            }
+            
+            .caixa-conteudo {
+                background: #fff;
+                padding: 5px;
+                margin-top: 5px;
+            }
+            /*Formatação do Conteúdo INDEX*/
+            
+            #conteudo {
+                margin-top: 60px;
+            }
+            /*Formatação do conteúdo primario*/
+            
+            #conteudo-primario {
+                float: left;
+                width: 270px;
+                margin: 0 0 20px 195px;
+            }
+            
+            .imagem-1 {
+                width: 100%;
+                margin: 5px 0;
+            }
+            
+            h3 {
+                text-transform: uppercase;
+                background-color: #b10333;
+                display: inline;
+                color: #fff;
+                font-size: 0.8em;
+                padding: 3px;
+                text-align: center;
+            }
+            
+            .caixa-conteudo a {
+                color: #B40404;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+            /*Formatação do conteúdo secundario*/
+            
+            #conteudo-secundario {
+                float: left;
+                width: 270px;
+                margin: 0 0 20px 15px;
+            }
+            /*Formatação do Conteúdo Lateral*/
+            
+            #conteudo-lateral {
+                float: left;
+                width: 180px;
+                margin: 0 0 20px -750px;
+            }
+            
+            #lista-entrevistas a {
+                text-decoration: none;
+                color: #000000;
+                font-weight: bold;
+                font-size: 0.9em;
+                display: block;
+                padding: 3px;
+                line-height: 30px;
+                border: 1px solid #f3f3f3;
+            }
+            
+            #lista-entrevistas a:hover {
+                color: #a1a1a1;
+                padding-left: 20px;
+                background: url(../imagens/marcador.png) no-repeat left center;
+            }
+            
+            #lista-entrevistas p {
+                font-size: 0.9em;
+                color: #294C71;
+                margin-bottom: 5px;
+            }
+            
+            input {
+                font-size: 0.9;
+                padding: 5px;
+                width: 125px;
+                margin-top: 5px;
+            }
+            
+            #cadastrar {
+                background: #b10333;
+                color: #fff;
+                padding: 5px;
+                margin: 8px 7px;
+                border: 3px solid #A71E09;
+                border-radius: 5px;
+            }
+            /*Formatação do Conteúdo BRASIL*/
+            
+            #brasil-conteudo-primario {
+                float: left;
+                width: 555px;
+                margin: 0 0 20px 195px;
+            }
+            
+            #brasil-conteudo-lateral {
+                float: left;
+                width: 180px;
+                margin: 0 0 20px -750px;
+            }
+            /*Formatação do Conteúdo FOTOS*/
+            
+            #fotos-conteudo-principal {
+                background: coral;
+                width: 750px;
+                margin-bottom: 20px;
+            }
+            
+            #rodape {
+                background: #294C71;
+                padding: 20px;
+                clear: both;
+                color: #ffffff;
+                text-align: center;
+            }
